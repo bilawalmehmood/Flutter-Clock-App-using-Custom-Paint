@@ -55,10 +55,10 @@ class ClockPainter extends CustomPainter {
     dashBrush.strokeWidth = 2;
 
     Paint hourDashBrush = Paint();
-    hourDashBrush.color = Colors.red;
+    hourDashBrush.color = Colors.blue;
     hourDashBrush.style = PaintingStyle.stroke;
     hourDashBrush.strokeCap = StrokeCap.round;
-    hourDashBrush.strokeWidth = 2;
+    hourDashBrush.strokeWidth = 1;
 
     for (double i = 0; i < 360; i += 6) {
       var x1 = centerX + outerCircleRadius * cos(i * pi / 180);

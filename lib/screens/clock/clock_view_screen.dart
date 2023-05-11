@@ -1,6 +1,5 @@
 import 'dart:async';
 import 'dart:math';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_clock_app_using_custom_paint/screens/clock/components/clock_painter.dart';
 
@@ -23,8 +22,8 @@ class _ClockViewScreenState extends State<ClockViewScreen> {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: 300,
-      height: 300,
+      width: 180,
+      height: 180,
       child: Transform.rotate(
         angle: -pi / 2,
         child: CustomPaint(
